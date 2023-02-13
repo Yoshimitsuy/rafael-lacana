@@ -1,5 +1,5 @@
 import React from 'react';
-import working from '../assets/work.jpeg'
+import proj1 from '../assets/1.png'
 // import realState from '../assets/realstate.jpeg'
 
 const Work = () => {
@@ -12,7 +12,7 @@ const Work = () => {
           <p className='py-6'>\\ Check out some of my recent work</p>
         </div>
 
-        <div style={{backgroundImage: `url(${working})`}}
+        <div style={{backgroundImage: `url(${proj1})`}}
         className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
           <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
             
