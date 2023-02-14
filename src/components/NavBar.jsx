@@ -130,7 +130,7 @@ const NavBar = () => {
           </li>
 
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#1ED760]'>
-            <a className='flex justify-between items-center w-full font-bold text-gray-800' href='/' target='_blank' rel='noreferrer'>
+            <a className='flex justify-between items-center w-full font-bold text-gray-800' href='https://open.spotify.com/user/yoshimitsuy?si=b076136d3c0640c4&nd=1' target='_blank' rel='noreferrer'>
               Spotify <FaSpotify size={30} />
             </a>
           </li>
