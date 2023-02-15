@@ -25,36 +25,36 @@ const Skills = () => {
         </div>
 
         <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
-          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={github} alt="HTML icon" />
+          <div className='rounded-lg shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+            <img className='m-5 w-20 mx-auto' src={github} alt="HTML icon" />
             <p className='my-4'>GITHUB</p>
           </div>
-          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={tailwind} alt="HTML icon" />
+          <div className='rounded-lg shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+            <img className='m-5 w-20 mx-auto' src={tailwind} alt="HTML icon" />
             <p className='my-4'>TAILWIND</p>
           </div>
-          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={javascript} alt="HTML icon" />
+          <div className='rounded-lg shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+            <img className='m-5 w-20 mx-auto' src={javascript} alt="HTML icon" />
             <p className='my-4'>JAVASCRIPT</p>
           </div>
-          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={node} alt="HTML icon" />
+          <div className='rounded-lg shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+            <img className='m-5 w-20 mx-auto' src={node} alt="HTML icon" />
             <p className='my-4'>NODE</p>
           </div>
-          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={react} alt="HTML icon" />
+          <div className='rounded-lg shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+            <img className='m-5 w-20 mx-auto' src={react} alt="HTML icon" />
             <p className='my-4'>REACT</p>
           </div>
-          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={mongo} alt="HTML icon" />
+          <div className='rounded-lg shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+            <img className='m-5 w-20 mx-auto' src={mongo} alt="HTML icon" />
             <p className='my-4'>MONGO DB</p>
           </div>
-          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={html} alt="HTML icon" />
+          <div className='rounded-lg shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+            <img className='m-5 w-20 mx-auto' src={html} alt="HTML icon" />
             <p className='my-4'>HTML</p>
           </div>
-          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto' src={css} alt="HTML icon" />
+          <div className='rounded-lg shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+            <img className='m-5 w-20 mx-auto' src={css} alt="HTML icon" />
             <p className='my-4'>CSS</p>
           </div>
         </div>
