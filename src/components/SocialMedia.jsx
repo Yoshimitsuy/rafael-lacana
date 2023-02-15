@@ -4,7 +4,7 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 
 const SocialMedia = () => {
   return (
-    <div className='w-full h-screen bg-[#0a192f] text-gray-300'>
+    <div className='w-full h-full bg-[#0a192f] text-gray-300'>
       <div className='flex fixed flex-col justify-between items-center top-[1%] right-12 lg:hidden'>
         <ul className='flex'>
           
