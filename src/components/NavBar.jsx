@@ -20,7 +20,7 @@ const NavBar = () => {
       </div>
 
       {/* menu */}
-        <ul className='hidden md:flex'>
+        <ul className='hidden lg:flex'>
           <li>
             <Link to="home" smooth={true} duration={500}>
             Home
@@ -50,7 +50,7 @@ const NavBar = () => {
 
 
       {/* hamburger for respons. */}
-        <div onClick={handleClick} className='md:hidden z-10'>
+        <div onClick={handleClick} className='lg:hidden z-10'>
           {!nav ? <FaBars /> : <FaTimes />}
         </div>
 
@@ -84,7 +84,7 @@ const NavBar = () => {
         </ul>
 
       {/* Social Icons */}
-      <div className='hidden lg:flex fixed flex-col top-[25%] left-0'>
+      <div className='hidden lg:flex fixed flex-col top-[20%] left-0'>
         <ul>
           
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0077b5]'>
@@ -100,7 +100,12 @@ const NavBar = () => {
           </li>
 
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#48b9a1]'>
-            <a className='flex justify-between items-center w-full font-bold text-gray-800' href='/' target='_blank' rel='noreferrer'>
+            <a
+              className='flex justify-between items-center w-full font-bold text-gray-800'
+              href='mailto:rafael.lacana@hotmail.com' 
+              target='_blank' 
+              rel='noreferrer'
+            >
               Email<FaMailBulk size={30} />
             </a>
           </li>
