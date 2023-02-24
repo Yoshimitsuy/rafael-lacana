@@ -9,6 +9,8 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    alert('form sent')
+
     setName('');
     setEmail('');
     setMessage('');
