@@ -9,11 +9,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    alert('formulário enviado:', {
-      name,
-      email,
-      message
-    });
+    alert('form sent')
 
     setName('');
     setEmail('');
