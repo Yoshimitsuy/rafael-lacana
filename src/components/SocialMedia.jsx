@@ -21,12 +21,12 @@ const SocialMedia = () => {
           </li>
 
           <li className='w-[60px] h-[60px] flex justify-between items-center hover:scale-110 duration-500 bg-[#48b9a1]'>
-            <a className='flex justify-between items-center w-full font-bold text-gray-800' href='/' target='_blank' rel='noreferrer'>
+            <a className='flex justify-between items-center w-full font-bold text-gray-800' href='mailto:rafael.lacana@hotmail.com' target='_blank' rel='noreferrer'>
               <FaMailBulk size={30} />
             </a>
           </li>
 
-          <li className='w-[60px] h-[60px] flex justify-between items-center hover:scale-110 duration-500 bg-[#333333]'>
+          <li className=' hidden sm:flex w-[60px] h-[60px] justify-between items-center hover:scale-110 duration-500 bg-[#333333]'>
             <a className='flex justify-between items-center w-full font-bold text-gray-300' href='/' target='_blank' rel='noreferrer'>
               <BsFillPersonLinesFill size={30} />
             </a>
