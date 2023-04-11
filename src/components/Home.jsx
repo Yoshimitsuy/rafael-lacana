@@ -8,19 +8,24 @@ const Home = () => {
       {/* container */}
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
         
-        <p className='text-pink-600'>Hi, my name is</p>
+        <p className='text-pink-600'>Oi, eu sou o </p>
         
         <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>Rafael Lacana</h1>
         
-        <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>I'm a Full Stack Developer</h2>
+        <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>Full Stack Developer</h2>
 
         <p className='text-[#8892b0] py-4 max-w-[700px]'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Proin eros massa, convallis eu sem a, maximus auctor diam. 
-          Ut vitae dolor urna. Praesent quis malesuada erat, id feugiat ligula. 
-          Nullam sed augue velit. Integer pharetra a arcu ut bibendum. 
-          Vivamus consectetur quam at enim pretium, bibendum sodales nibh lacinia. 
-          Etiam sodales gravida sapien eu elementum.
+          Venho de uma transição de carreira, onde eu atuava como engenheiro, em obras industriais
+          e agora estou seguindo como dev.
+          <br />
+          <br />
+
+          Me formei da Trybe, uma escola de tecnologia que ensina do básico ao avançado, com duração de um ano.
+          Passamos pelos fundamentos de lógica de linguagem, front-end, back-end e conceitos iniciais de python.
+          <br />
+          <br />
+          
+          Neste período concluímos 40 projetos, individuais e em grupo, aprimorando conhecimentos, compartilhando ideias e treinando nossa comunicação.
         </p>
 
         <div>

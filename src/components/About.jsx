@@ -18,15 +18,23 @@ const About = () => {
 
         <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
           <div className='sm:text-right text-4xl font-bold'>
-            <p>Hi, I'm Rafael, nice to meet you. Please take a look around</p>
+            <p>Da engenharia para a programação</p>
           </div>
           <div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Proin eros massa, convallis eu sem a, maximus auctor diam. 
-          Ut vitae dolor urna. Praesent quis malesuada erat, id feugiat ligula. 
-          Nullam sed augue velit. Integer pharetra a arcu ut bibendum. 
-          Vivamus consectetur quam at enim pretium, bibendum sodales nibh lacinia. 
-          Etiam sodales gravida sapien eu elementum.</p>
+            <p>
+              Depois que comecei a estudar programação, me encontrei.
+              <br />
+              <br />
+
+              Gosto de aprender coisas novas, de testar, de aplicar...
+              Me encontrei nessa área e é onde quero atuar.
+              <br />
+              <br />
+
+              Gosto de ver algo ser criado e depois ver funcionando.
+              Poder fazer a vida das pessoas melhor é algo que me estimula muito a querer participar.
+              
+            </p>
           </div>
         </div>
 
